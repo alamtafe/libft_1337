@@ -6,7 +6,7 @@
 /*   By: alamtafe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 18:07:08 by alamtafe          #+#    #+#             */
-/*   Updated: 2026/10/18 21:20:24 by alamtafe         ###   ########.fr       */
+/*   Updated: 2026/10/19 10:18:17 by alamtafe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*tmp;
 
-	if (lst)
+	if (!lst)
 		return ;
 	if (!*lst)
 	{
